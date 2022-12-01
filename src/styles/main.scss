@@ -1,0 +1,85 @@
+:root {
+  //  SIZES
+  --sidebar--offset: 20px;
+  --large-btn: 180px;
+  --small-btn: 80px;
+
+  //  COLORS
+  --red: #E31243;
+  --red-darken: #ad092d;
+  --blue: #128BE3;
+  --blue-darken: #0874bb;
+  --black: #353535;
+  --yellow: #FF8800;
+  --gray: #DBDADA;
+  --white: #FFF;
+
+  //  TEXT SIZES
+  --title: 24px;
+  --btn: 14px;
+  --large-text: 16px;
+  --text: 14px;
+  --small-text: 12px;
+
+  //  LINE HEIGHTS
+  --title-lh: 30px;
+  --btn-lh: 17px;
+  --large-text-lh: 28px;
+  --text-lh-s: 21px;
+  --text-lh-m: 24px;
+  --small-text-lh: 16px;
+
+
+  //  FONT WEIGHTS
+  --s: 400;
+  --m: 500;
+  --l: 700;
+  --xl: 900;
+
+  //  RADIUS
+  --btn-rad: 4px;
+  --checkbox-rad: 2px;
+  --input-rad: 1px;
+  --full-rad: 100%;
+
+  //  MARGINS
+  --icon-margin: 8px;
+
+  //  PADDINGS
+  --left-padding-m: 34px;
+  --left-padding-s: 18px;
+
+  // TRANSITION
+  --transition: all .25s ease-in-out;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "PF DinDisplay Pro", sans-serif;
+  font-weight: var(--s);
+  font-size: var(--text);
+  line-height: var(--text-lh-s);
+}
+
+body, html {
+  height: 100%;
+}
+
+button {
+  border: 0;
+  background-color: inherit;
+}
+
+input {
+  border: 0;
+  outline: none;
+}
+
+ul {
+  list-style: none;
+}
